@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+}
+
+#game {
+    width: 1003px;
+    height: 404px;
+    border: 2px solid black;
+}
+
+#character #dino {
+    width: 50px;
+    height: 100px;
+    /* background-color: red; */
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+
+#game-over {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+}
+
+#game-over h1, #game-over h2 {
+    font-size: 48px;
+}
+
+#block {
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+}
+
+.bi-tree-fill {
+    color: blue;
+    font-size: 40px;
+    position: relative;
+    top: 256px;
+    left: 960px;
+    animation: tree 2s infinite linear;
+    animation-delay: 1s;
+}
+
+
+button {
+    color: white;
+    position: absolute;
+    top: 410px;
+    left: 860px;
+    font-size: 24px;
+    padding: 10px 30px;
+    background-color: blue;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+@keyframes tree {
+    0%{left: 956px;}
+    100%{left: -40px;}
+}
+
+@keyframes jump {
+    0%{top: 300px;}
+    30%{top: 220px;}
+    70%{top: 220px;}
+    100%{top: 300px;}
+}
+
+@media (max-width: 426px) {
+    #game {
+        /* transform: rotate(90deg); */
+        /* margin-top: 5%; */
+    }
+}
