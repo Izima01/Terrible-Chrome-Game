@@ -22,7 +22,7 @@ let checkDead = setInterval(function() {
     let treeLeft =
     parseInt(window.getComputedStyle(document.querySelector(".bi-tree-fill")).getPropertyValue("left"));
     
-    if (treeLeft > 100 && treeLeft < 130 && dinoTop > 250) {
+    if (treeLeft > 100 && treeLeft < 130 && dinoTop > 280) {
         document.querySelector(".bi-tree-fill").style = "animation: none"
         document.querySelector("#game-over").style = "display: block;"
     }

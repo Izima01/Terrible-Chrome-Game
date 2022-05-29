@@ -16,10 +16,10 @@ body {
 
 #character #dino {
     width: 50px;
-    height: 100px;
+    height: 80px;
     /* background-color: red; */
     position: relative;
-    top: 300px;
+    top: 320px;
     left: 100px;
 }
 
@@ -46,7 +46,7 @@ body {
     color: blue;
     font-size: 40px;
     position: relative;
-    top: 256px;
+    top: 274px;
     left: 960px;
     animation: tree 2s infinite linear;
     animation-delay: 1s;
@@ -72,10 +72,10 @@ button {
 }
 
 @keyframes jump {
-    0%{top: 300px;}
-    30%{top: 220px;}
-    70%{top: 220px;}
-    100%{top: 300px;}
+    0%{top: 320px;}
+    30%{top: 240px;}
+    70%{top: 240px;}
+    100%{top: 320px;}
 }
 
 @media (max-width: 426px) {
