@@ -18,7 +18,6 @@ body {
 #character #dino {
     width: 60px;
     height: 70px;
-    /* background-color: red; */
     position: relative;
     top: 330px;
     left: 100px;
@@ -40,7 +39,6 @@ body {
 #block {
     width: 40px;
     height: 40px;
-    /* background-color: red; */
 }
 
 .bi-tree-fill {
@@ -79,8 +77,10 @@ button {
 
 @keyframes jump {
     0%{top: 320px;}
-    30%{top: 240px;}
-    70%{top: 240px;}
+    20%{top: 270px;}
+    40%{top: 240px;}
+    60%{top: 240px;}
+    80%{top: 270px;}
     100%{top: 320px;}
 }
 
