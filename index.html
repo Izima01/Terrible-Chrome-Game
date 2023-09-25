@@ -10,16 +10,17 @@
     <!-- <script src="script.js"></script> -->
 </head>
 <body>
-    <button type="button" onclick="Reload()">Reload</button>
+    <!-- <button type="button" class="reload" onclick="Reload()">Reload</button> -->
     <h2 class="score">Score: <span id="scoreValue">0</span></h2>
-    <div id="game" onclick="jump()">
+    <div id="game">
+        <button id="start">Start</button>
         <div id="game-over">
             <h1>You Lost.</h1>
             <h2>Reload the Game</h2>
 
         </div>
         <div id="character">
-            <img id="dino" src="dinosaur.png" alt="">
+            <img id="dino" src="./dinosaur.png" alt="">
         </div>
         <div id="block">
             <i class="bi bi-tree-fill"></i>
